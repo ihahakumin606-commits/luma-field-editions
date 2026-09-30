@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LUMA FIELD Editions — collectible lighting and quiet objects made in small series.">
+  <meta name="theme-color" content="#d6d7d5">
+  <title>LUMA FIELD — Editions & Objects</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23131313'/%3E%3Cpath d='M32 12 53 50H11Z' fill='%23c35d25'/%3E%3C/svg%3E">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="intro-curtain" aria-hidden="true">
+    <div class="intro-index"><span>FIELD / 01</span><span>SHANGHAI · 2026</span></div>
+    <div class="intro-signal"><i></i><span>LIGHT DEFINES THE FIELD</span></div>
+  </div>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  <div class="store-notice">FIELD EDITION 01 · MADE IN SMALL SERIES · SHANGHAI / 2026</div>
+
+  <header class="site-header" id="header">
+    <a class="wordmark" href="#top" aria-label="LUMA FIELD 首页"><span class="mark" aria-hidden="true"></span>LUMA FIELD</a>
+    <nav aria-label="主要导航">
+      <a href="#collection">Collection</a>
+      <a href="#series">Series map</a>
+      <a href="#materials">Materials</a>
+    </nav>
+    <button class="selection-toggle" id="selection-toggle" type="button" aria-haspopup="dialog" aria-controls="selection-drawer">Selection <span id="selection-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="cinematic-hero" id="top" aria-labelledby="hero-title">
+      <div class="cinematic-media" data-hero-media>
+        <img src="./assets/field-family-hero-v2.png" alt="LUMA FIELD 灯具与琥珀物件系列陈列" fetchpriority="high">
+        <div class="cinematic-shade" aria-hidden="true"></div>
+      </div>
+      <div class="field-line" aria-hidden="true"><i></i></div>
+      <div class="hero-interface">
+        <div class="hero-kicker"><span>COLLECTIBLE LIGHT / SERIES 01</span><span>04 OBJECTS · 2026</span></div>
+        <h1 id="hero-title"><span>LUMA</span><span>FIELD</span></h1>
+        <div class="hero-bottom">
+          <p>LIGHT, MOTION AND CONNECTION<br>HELD IN ONE QUIET FIELD.</p>
+          <div class="hero-actions">
+            <a href="#collection">Enter collection <span>↘</span></a>
+            <button type="button" data-view="l1">View L1 <span>01</span></button>
+          </div>
+        </div>
+        <span class="hero-coordinate">31.2304° N / 121.4737° E</span>
+      </div>
+      <a class="scroll-cue" href="#opening-edition"><span>SCROLL TO REVEAL</span><i></i></a>
+    </section>
+
+    <section class="opening-edition" id="opening-edition" aria-label="Featured edition">
+      <div><span>FEATURED / 01</span><strong>L1 PIVOT TASK LIGHT</strong></div>
+      <p>薄锐光臂、矿物重量与烟熏琥珀核心，构成 LUMA FIELD 的原型。</p>
+      <div class="opening-price"><span>MADE TO ORDER · 3–4 WEEKS</span><strong>¥ 3,980</strong><button type="button" data-add="l1">Add to selection</button></div>
+    </section>
+
+    <section class="collection section-shell" id="collection">
+      <div class="collection-head reveal">
+        <div><p class="eyebrow">FIELD EDITIONS / 2026</p><h2>Objects for<br>quiet light.</h2></div>
+        <p>每件作品都由冷香槟金属、矿物复合材料与烟熏琥珀组成。相同的材料规则，在不同尺度中形成灯具、空间物件与收藏品。</p>
+      </div>
+      <div class="filter-bar reveal" role="group" aria-label="筛选系列">
+        <button class="filter is-active" data-filter="all" type="button">All / 04</button>
+        <button class="filter" data-filter="light" type="button">Light / 03</button>
+        <button class="filter" data-filter="object" type="button">Object / 01</button>
+      </div>
+      <div class="product-grid" id="product-grid">
+        <article class="product-card reveal" data-category="light">
+          <button class="product-image" type="button" data-view="l1" aria-label="查看 L1 Pivot Task Light"><img src="./assets/archive-master.png" alt="L1 Pivot Task Light"><span>MADE TO ORDER</span></button>
+          <div class="product-info"><div><p>LIGHT 01</p><h3>L1 Pivot Task Light</h3></div><p class="price">¥ 3,980</p></div>
+          <div class="card-actions"><button type="button" data-view="l1">View piece</button><button type="button" data-add="l1">Add</button></div>
+        </article>
+        <article class="product-card reveal" data-category="light">
+          <button class="product-image" type="button" data-view="l2" aria-label="查看 L2 Wall Rail"><img src="./assets/l2-wall-rail.png" alt="L2 Wall Rail"><span>ED. 01 / 36</span></button>
+          <div class="product-info"><div><p>LIGHT 02</p><h3>L2 Wall Rail</h3></div><p class="price">¥ 5,600</p></div>
+          <div class="card-actions"><button type="button" data-view="l2">View piece</button><button type="button" data-add="l2">Add</button></div>
+        </article>
+        <article class="product-card reveal" data-category="light">
+          <button class="product-image" type="button" data-view="l3" aria-label="查看 L3 Floor Totem"><img src="./assets/l3-floor-totem.png" alt="L3 Floor Totem"><span>ED. 01 / 18</span></button>
+          <div class="product-info"><div><p>LIGHT 03</p><h3>L3 Floor Totem</h3></div><p class="price">¥ 8,800</p></div>
+          <div class="card-actions"><button type="button" data-view="l3">View piece</button><button type="button" data-add="l3">Add</button></div>
+        </article>
+        <article class="product-card reveal" data-category="object">
+          <button class="product-image" type="button" data-view="a1" aria-label="查看 A1 Amber Node"><img src="./assets/a1-amber-node.png" alt="A1 Amber Node 收藏物件"><span>ED. 01 / 60</span></button>
+          <div class="product-info"><div><p>OBJECT 01</p><h3>A1 Amber Node</h3></div><p class="price">¥ 1,280</p></div>
+          <div class="card-actions"><button type="button" data-view="a1">View piece</button><button type="button" data-add="a1">Add</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement-band">
+      <div class="statement-copy reveal"><p class="eyebrow light">THE FIELD PRINCIPLE</p><h2>Less product.<br>More presence.</h2><p>我们不以功能数量定义作品，而以轮廓、重量、触感与光在空间中的停留方式来定义它。</p></div>
+      <div class="statement-image reveal"><img src="./assets/pivot-node.png" alt="烟熏琥珀转轴节点细节"></div>
+    </section>
+
+    <section class="series section-shell" id="series">
+      <div class="series-intro reveal"><p class="eyebrow">COLLECTION COMPASS</p><h2>Follow the field.</h2><p>系列编号同时是顾客的导购路径，也是后续创作的约束系统。新作品必须选择一个尺度、一个材料命题与一个明确空间关系。</p></div>
+      <div class="series-map">
+        <article class="series-row is-live reveal"><span class="series-no">01</span><div><p>ILLUMINATION</p><h3>L / LIGHT</h3></div><p>工作光、墙面光、落地光雕</p><span>AVAILABLE · 2026</span></article>
+        <article class="series-row is-live reveal"><span class="series-no">02</span><div><p>COLLECTIBLE OBJECT</p><h3>A / AMBER</h3></div><p>节点、材料样本与限量桌面物件</p><span>AVAILABLE · 2026</span></article>
+        <article class="series-row reveal"><span class="series-no">03</span><div><p>HORIZONTAL PLANE</p><h3>S / SURFACE</h3></div><p>托盘、边桌与带光的展示表面</p><span>NEXT RELEASE · 2027</span></article>
+        <article class="series-row reveal"><span class="series-no">04</span><div><p>SPATIAL EDITION</p><h3>P / PLACE</h3></div><p>屏风、空间灯与小型装置</p><span>RESEARCH · 2027</span></article>
+      </div>
+      <div class="release-guide reveal">
+        <div><span>NOW</span><strong>L1 / L2 / L3 / A1</strong><p>先建立灯具尺度与琥珀节点识别。</p></div>
+        <div><span>NEXT</span><strong>S1 / S2</strong><p>把矿物基座扩展为可以承载物件的表面。</p></div>
+        <div><span>LATER</span><strong>P1 / P2</strong><p>把单件产品语言放大为空间装置。</p></div>
+      </div>
+    </section>
+
+    <section class="materials" id="materials">
+      <div class="materials-image reveal"><img src="./assets/a1-amber-node.png" alt="琥珀、金属与矿物复合材料"></div>
+      <div class="materials-copy reveal">
+        <p class="eyebrow light">MATERIAL CODE / 03</p><h2>Three materials.<br>One identity.</h2>
+        <ol>
+          <li><span>01</span><div><h3>Cold metal</h3><p>微珠喷砂冷香槟铝，建立精确边界与薄锐轮廓。</p></div></li>
+          <li><span>02</span><div><h3>Mineral weight</h3><p>含再生骨料的矿物复合材料，为轻薄结构提供视觉与物理重量。</p></div></li>
+          <li><span>03</span><div><h3>Amber core</h3><p>边缘深、中心透光的烟熏树脂，只在连接处出现。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="edition-process section-shell">
+      <div class="process-title reveal"><p class="eyebrow">ACQUISITION</p><h2>How to collect.</h2></div>
+      <div class="process-grid">
+        <div class="reveal"><span>01</span><h3>Build a selection</h3><p>把感兴趣的作品加入收藏单，比较尺度、编号与交付周期。</p></div>
+        <div class="reveal"><span>02</span><h3>Confirm the edition</h3><p>限量作品会确认可用编号；定制作品会确认材料批次与尺寸。</p></div>
+        <div class="reveal"><span>03</span><h3>Reserve production</h3><p>确认制作档期后进入小批量生产，并附作品编号与材料记录。</p></div>
+      </div>
+      <button class="primary-action reveal" id="open-selection-bottom" type="button">Open your selection</button>
+    </section>
+  </main>
+
+  <footer>
+    <div><p class="eyebrow light">FIELD EDITIONS / 2026</p><h2>LUMA<br>FIELD</h2></div>
+    <div class="footer-nav"><a href="#collection">Collection</a><a href="#series">Series map</a><a href="#materials">Materials</a><a href="#top">Back to top</a></div>
+    <div class="footer-note"><p>Collectible lighting and quiet objects.</p><p>Designed by Zheng Jirui / 郑吉睿</p><p>Shanghai · Made in small series</p></div>
+  </footer>
+
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="关闭产品详情">×</button>
+    <div class="dialog-layout">
+      <img id="dialog-image" src="" alt="">
+      <div class="dialog-copy"><p class="eyebrow" id="dialog-code"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><dl id="dialog-specs"></dl><div class="dialog-buy"><strong id="dialog-price"></strong><button id="dialog-add" type="button">Add to selection</button></div></div>
+    </div>
+  </dialog>
+
+  <aside class="selection-drawer" id="selection-drawer" aria-hidden="true" aria-label="收藏单">
+    <div class="drawer-head"><div><p>YOUR SELECTION</p><h2>Pieces to collect</h2></div><button id="selection-close" type="button" aria-label="关闭收藏单">×</button></div>
+    <div class="selection-items" id="selection-items"></div>
+    <div class="selection-empty" id="selection-empty"><p>收藏单还是空的。</p><a href="#collection">Browse the collection</a></div>
+    <div class="drawer-foot" id="drawer-foot"><div><span>Estimated total</span><strong id="selection-total">¥ 0</strong></div><button id="copy-selection" type="button">Copy acquisition list</button><p>价格与制作档期将在正式预订前再次确认。</p></div>
+  </aside>
+  <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./script.js"></script>
+</body>
+</html>

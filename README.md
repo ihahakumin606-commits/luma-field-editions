@@ -41,3 +41,9 @@ The HTML, CSS and JavaScript source code are released under the [MIT License](LI
 
 All original product designs, names, renders and image assets remain © 2026 Zheng Jirui and are included for portfolio demonstration only. They are not covered by the MIT License. See [ASSET-LICENSE.md](ASSET-LICENSE.md).
 
+
+## THRESHOLD FIELD
+
+The THRESHOLD collection is preserved as an independent static website in [`threshold-field/`](threshold-field/README.md), without replacing the original LUMA files.
+
+[Open the public THRESHOLD website](https://threshold-field-objects.ihahakumin606.chatgpt.site/) — no GPT or GitHub login is needed for viewing. The current public host is Sites. GitHub Pages can also serve this repository after its publishing source is enabled.
